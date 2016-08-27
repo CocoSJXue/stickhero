@@ -4,7 +4,12 @@ function mTween(obj, attr, target, duration, fx, callback) {
     var startTime = new Date().getTime();
     var b = parseFloat(getComputedStyle(obj)[attr]);
     var c = target - b;
-    var d = duration;
+    
+
+
+
+
+var d = duration;
 
     obj[attr] = setInterval(function() {
 
